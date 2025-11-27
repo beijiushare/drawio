@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.1" pages="2">
   <diagram name="基本概念" id="rHqBJt2By-FVqqs2GFlx">
-    <mxGraphModel dx="1016" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1016" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,7 +39,7 @@
           <mxGeometry height="63" width="186" x="4" y="26" as="geometry" />
         </mxCell>
         <mxCell id="0fsrZKWYYVscYTp1_3Ln-13" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="压力" vertex="1">
-          <mxGeometry height="116" width="190" x="460" y="80" as="geometry">
+          <mxGeometry height="116" width="190" x="420" y="80" as="geometry">
             <mxRectangle height="30" width="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -53,7 +53,7 @@
           <mxGeometry height="30" width="150" x="19" y="76" as="geometry" />
         </mxCell>
         <mxCell id="0fsrZKWYYVscYTp1_3Ln-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;宋体&quot;&gt;可逆过程就是无耗散效应的准平衡过程，但是准平衡过程不一定可逆&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="230" x="460" y="236" as="geometry" />
+          <mxGeometry height="30" width="230" x="420" y="236" as="geometry" />
         </mxCell>
         <mxCell id="0fsrZKWYYVscYTp1_3Ln-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#b1ddf0;sketch=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;strokeColor=#10739e;opacity=40;" value="&lt;span style=&quot;font-family: 宋体; font-size: 15px;&quot;&gt;功和热量都是过程量&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="170" x="390" y="590" as="geometry" />
@@ -104,6 +104,9 @@
         </mxCell>
         <mxCell id="XQVaCSiEgdvo39DU2HTo-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#b1ddf0;sketch=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;strokeColor=#10739e;opacity=40;" value="&lt;span style=&quot;font-family: 宋体; font-size: 15px;&quot;&gt;对外做功为正，吸热为正&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="200" x="390" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="XQVaCSiEgdvo39DU2HTo-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fad9d5;strokeColor=#ae4132;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 17px;&quot;&gt;tips&lt;/font&gt;" vertex="1">
+          <mxGeometry height="390" width="450" x="150" y="800" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
