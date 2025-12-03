@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.1" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.3" pages="6">
   <diagram name="基本概念" id="rHqBJt2By-FVqqs2GFlx">
     <mxGraphModel dx="1422" dy="1096" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1200" math="1" shadow="0">
       <root>
@@ -1064,7 +1064,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LEs-1UxSIxzO31zWjJgR" name="水蒸气与湿空气">
-    <mxGraphModel dx="490" dy="378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="406" dy="313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1210,6 +1210,12 @@
         </mxCell>
         <mxCell id="53-teKoPvIKKRSWhqky2-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(181, 115, 157);&quot;&gt;露点：&lt;/font&gt;&lt;/b&gt;湿空气中水蒸气分压力`p_v` 所对应的饱和温度，称为露点温度，简称露点`T_d`" vertex="1">
           <mxGeometry height="30" width="290" x="410" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="HUijMb74WIGyhQqRpPvE-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(181, 115, 157);&quot;&gt;绝对湿度：&lt;/font&gt;&lt;/b&gt;`1m^3`湿空气中所含水蒸气质量。它等于按照`T`和水蒸气分压力`p_v`确认的水蒸气密度`rho _v`" vertex="1">
+          <mxGeometry height="30" width="330" x="390" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="VkkzMqaRFHLXqePd8x0A-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="`rho_v=m/V =(p_v)/(R_(g,v)T)`" vertex="1">
+          <mxGeometry height="30" width="160" x="480" y="680" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
