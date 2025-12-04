@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.3" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.3" pages="4">
   <diagram id="oR4FCTg-6E62X10TiIlK" name="热传递基本方式">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="600" math="1" shadow="0">
       <root>
@@ -95,181 +95,181 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iXDgb9OmNwTYReIuf3r4" name="导热">
-    <mxGraphModel dx="1422" dy="1096" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1094" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1399" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="fjashWAwLyqWmr1IE8VR-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#b1ddf0;sketch=1;align=center;verticalAlign=middle;fontFamily=宋体;fontSize=15;strokeColor=#10739e;opacity=40;fontColor=default;" value="理论基础" vertex="1">
-          <mxGeometry height="40" width="120" x="370" y="40" as="geometry" />
+          <mxGeometry height="40" width="120" x="370" y="28" as="geometry" />
         </mxCell>
         <mxCell id="fjashWAwLyqWmr1IE8VR-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="在时刻`tau`,物体内各点的温度分布称为该物体在`tau`时刻的温度场" vertex="1">
-          <mxGeometry height="30" width="220" x="50" y="110" as="geometry" />
+          <mxGeometry height="30" width="220" x="50" y="98" as="geometry" />
         </mxCell>
         <mxCell id="fjashWAwLyqWmr1IE8VR-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="`t=f(x,y,z,tau)`" vertex="1">
-          <mxGeometry height="30" width="130" x="95" y="150" as="geometry" />
+          <mxGeometry height="30" width="130" x="95" y="138" as="geometry" />
         </mxCell>
         <mxCell id="fjashWAwLyqWmr1IE8VR-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="随温度变化的温度场称&lt;b&gt;&lt;font style=&quot;color: rgb(181, 115, 157);&quot;&gt;非稳态温度场&lt;/font&gt;&lt;/b&gt;，其中的导热称&lt;font style=&quot;color: rgb(181, 115, 157);&quot;&gt;&lt;b&gt;非稳态导热&lt;/b&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="240" x="40" y="190" as="geometry" />
+          <mxGeometry height="30" width="240" x="40" y="178" as="geometry" />
         </mxCell>
         <mxCell id="fjashWAwLyqWmr1IE8VR-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="不随温度变化的温度场`((partial t)/(partial tau)=0)`称&lt;b&gt;&lt;font style=&quot;color: rgb(181, 115, 157);&quot;&gt;稳态温度场&lt;/font&gt;&lt;/b&gt;，其中的导热称&lt;font style=&quot;color: rgb(181, 115, 157);&quot;&gt;&lt;b&gt;稳态导热&lt;/b&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="270" x="30" y="240" as="geometry" />
+          <mxGeometry height="30" width="270" x="30" y="228" as="geometry" />
         </mxCell>
         <mxCell id="fjashWAwLyqWmr1IE8VR-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="温度场中温度相同的点所连成的线或者面称为&lt;b&gt;&lt;font style=&quot;color: rgb(181, 115, 157);&quot;&gt;等温线或等温面&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="220" x="60" y="300" as="geometry" />
+          <mxGeometry height="30" width="220" x="60" y="288" as="geometry" />
         </mxCell>
         <mxCell id="fjashWAwLyqWmr1IE8VR-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(181, 115, 157);&quot;&gt;温度梯度&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="80" x="320" y="100" as="geometry" />
+          <mxGeometry height="30" width="80" x="320" y="88" as="geometry" />
         </mxCell>
         <mxCell id="fjashWAwLyqWmr1IE8VR-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="`\frac{\partial t}{\partial x} = \lim_{x \to 0} \frac{\Delta t}{\Delta x}&amp;nbsp;`为温度沿某一方向`x`的温度变化率（偏导数），为标量" vertex="1">
-          <mxGeometry height="30" width="470" x="320" y="140" as="geometry" />
+          <mxGeometry height="30" width="470" x="320" y="128" as="geometry" />
         </mxCell>
         <mxCell id="fjashWAwLyqWmr1IE8VR-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="温度梯度表示等温面法线方向的温度变化，为矢量" vertex="1">
-          <mxGeometry height="30" width="350" x="440" y="190" as="geometry" />
+          <mxGeometry height="30" width="350" x="440" y="178" as="geometry" />
         </mxCell>
         <mxCell id="fjashWAwLyqWmr1IE8VR-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="`g rad \quad t=\frac{\partial t}{\partial n} n`" vertex="1">
-          <mxGeometry height="30" width="110" x="330" y="190" as="geometry" />
+          <mxGeometry height="30" width="110" x="330" y="178" as="geometry" />
         </mxCell>
         <mxCell id="7D8Ke97nlPKDoLM7YA3n-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="`g rad \quad t=\frac{\partial t}{\partial x} i+\frac{\partial t}{\partial y} j+\frac{\partial t}{\partial z} k`" vertex="1">
-          <mxGeometry height="30" width="250" x="400" y="230" as="geometry" />
+          <mxGeometry height="30" width="250" x="400" y="218" as="geometry" />
         </mxCell>
         <mxCell id="hTWNEzHIoo85NDK_XwID-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="`q=q_x*i+q_y*j+q_z*k`" vertex="1">
-          <mxGeometry height="30" width="180" x="430" y="270" as="geometry" />
+          <mxGeometry height="30" width="180" x="430" y="258" as="geometry" />
         </mxCell>
         <mxCell id="hTWNEzHIoo85NDK_XwID-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="&lt;font color=&quot;#b5739d&quot;&gt;&lt;b&gt;傅里叶定律&lt;/b&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="80" x="330" y="312" as="geometry" />
+          <mxGeometry height="30" width="80" x="330" y="300" as="geometry" />
         </mxCell>
         <mxCell id="hTWNEzHIoo85NDK_XwID-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;对于各向同性物体：`q=-lambda g rad t =-lambda (partial t)/(partial n) n`&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;导热密度大小与温度梯度的绝对值成正比&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;方向与温度梯度相反&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="320" x="330" y="342" as="geometry" />
+          <mxGeometry height="70" width="320" x="330" y="330" as="geometry" />
         </mxCell>
         <mxCell id="hTWNEzHIoo85NDK_XwID-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="&lt;font color=&quot;#b5739d&quot;&gt;&lt;b&gt;热导率&lt;/b&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="70" x="30" y="370" as="geometry" />
+          <mxGeometry height="30" width="70" x="30" y="358" as="geometry" />
         </mxCell>
         <mxCell id="hTWNEzHIoo85NDK_XwID-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="`lambda =q/(abs(g rad&amp;nbsp; t))`表示物质导热能力大小&lt;div&gt;影响因素有：物质种类、结构、状态、温度、湿度、密度&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="240" x="40" y="400" as="geometry" />
+          <mxGeometry height="90" width="240" x="40" y="388" as="geometry" />
         </mxCell>
         <mxCell id="hTWNEzHIoo85NDK_XwID-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="固体&amp;gt;液体&amp;gt;气体&lt;div&gt;金属&amp;gt;非金属&lt;/div&gt;&lt;div&gt;导电性好的导热性也好&lt;/div&gt;&lt;div&gt;纯金属&amp;gt;合金&lt;/div&gt;&lt;div&gt;各向异性的`lambda`数值与方向有关&lt;/div&gt;&lt;div&gt;对同一物体，晶体&amp;gt;非晶体&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="210" x="40" y="520" as="geometry" />
+          <mxGeometry height="120" width="210" x="40" y="508" as="geometry" />
         </mxCell>
         <mxCell id="hTWNEzHIoo85NDK_XwID-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="&lt;font color=&quot;#b5739d&quot;&gt;&lt;b&gt;一般情况下：&lt;/b&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="100" x="40" y="490" as="geometry" />
+          <mxGeometry height="30" width="100" x="40" y="478" as="geometry" />
         </mxCell>
         <mxCell id="hTWNEzHIoo85NDK_XwID-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="&lt;font color=&quot;#b5739d&quot;&gt;&lt;b&gt;升温&lt;/b&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="50" x="40" y="650" as="geometry" />
+          <mxGeometry height="30" width="50" x="40" y="638" as="geometry" />
         </mxCell>
         <mxCell id="hTWNEzHIoo85NDK_XwID-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="合金和非金属的`lambda`增大，纯金属的`lambda`减小（低温超导）" vertex="1">
-          <mxGeometry height="30" width="190" x="40" y="690" as="geometry" />
+          <mxGeometry height="30" width="190" x="40" y="678" as="geometry" />
         </mxCell>
         <mxCell id="hTWNEzHIoo85NDK_XwID-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;arcSize=8;strokeWidth=2;strokeColor=#B5739D99;sketch=1;fillWeight=4;hachureGap=8;hachureAngle=45;opacity=40;" value="" vertex="1">
-          <mxGeometry height="380" width="260" x="30" y="363" as="geometry" />
+          <mxGeometry height="380" width="260" x="30" y="351" as="geometry" />
         </mxCell>
         <mxCell id="hTWNEzHIoo85NDK_XwID-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="`d&amp;nbsp; Phi_(lambda)+d Phi_(v)=dU`" vertex="1">
-          <mxGeometry height="30" width="190" x="450" y="460" as="geometry" />
+          <mxGeometry height="30" width="190" x="450" y="448" as="geometry" />
         </mxCell>
         <mxCell id="hTWNEzHIoo85NDK_XwID-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;arcSize=8;strokeWidth=2;strokeColor=#B5739D99;sketch=1;fillWeight=4;hachureGap=8;hachureAngle=45;opacity=40;" value="" vertex="1">
-          <mxGeometry height="430" width="390" x="370" y="450" as="geometry" />
+          <mxGeometry height="430" width="390" x="370" y="438" as="geometry" />
         </mxCell>
         <mxCell id="hTWNEzHIoo85NDK_XwID-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="净导入热" vertex="1">
-          <mxGeometry height="30" width="70" x="450" y="490" as="geometry" />
+          <mxGeometry height="30" width="70" x="450" y="478" as="geometry" />
         </mxCell>
         <mxCell id="hTWNEzHIoo85NDK_XwID-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="内热" vertex="1">
-          <mxGeometry height="30" width="60" x="520" y="490" as="geometry" />
+          <mxGeometry height="30" width="60" x="520" y="478" as="geometry" />
         </mxCell>
         <mxCell id="hTWNEzHIoo85NDK_XwID-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="热力学能增量" vertex="1">
-          <mxGeometry height="30" width="60" x="580" y="490" as="geometry" />
+          <mxGeometry height="30" width="60" x="580" y="478" as="geometry" />
         </mxCell>
         <mxCell id="hTWNEzHIoo85NDK_XwID-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="&lt;font color=&quot;#b5739d&quot;&gt;&lt;b&gt;导热微分方程&lt;/b&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="100" x="495" y="530" as="geometry" />
+          <mxGeometry height="30" width="100" x="495" y="518" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="$$\frac{\partial t}{\partial \tau}=\frac{\lambda}{\rho c} (\frac{\partial^2 t}{\partial x^2} +\frac{\partial^2 t}{\partial y^2} +\frac{\partial^2 t}{\partial z^2})+\frac{\Phi}{\rho c}&amp;nbsp;&amp;nbsp;$$" vertex="1">
-          <mxGeometry height="30" width="60" x="520" y="570" as="geometry" />
+          <mxGeometry height="30" width="60" x="520" y="558" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="$$\frac{\partial t}{\partial \tau}=\alpha&amp;nbsp; \bigtriangledown ^2t+\frac{\Phi}{\rho c}&amp;nbsp; $$" vertex="1">
-          <mxGeometry height="30" width="60" x="515" y="610" as="geometry" />
+          <mxGeometry height="30" width="60" x="515" y="598" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="`grad ^2 t`拉普拉斯算子" vertex="1">
-          <mxGeometry height="30" width="120" x="390" y="650" as="geometry" />
+          <mxGeometry height="30" width="120" x="390" y="638" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;`alpha=lambda/(rho c)`热扩散率（导热系数）&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;反映被瞬态加热/冷却时物体内温度变化快慢&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="210" x="530" y="670" as="geometry" />
+          <mxGeometry height="30" width="210" x="530" y="658" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-6" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;sketch=1;fillWeight=4;hachureGap=8;hachureAngle=45;opacity=40;strokeColor=#10739e;strokeWidth=2;fontFamily=宋体;fontSize=15;fontColor=default;fillColor=#b1ddf0;" value="" vertex="1">
-          <mxGeometry height="120" width="20" x="460" y="743" as="geometry" />
+          <mxGeometry height="120" width="20" x="460" y="731" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="无内热源&amp;nbsp; `(del t)/(del tau)=alpha grad ^2 t`" vertex="1">
-          <mxGeometry height="30" width="180" x="485" y="740" as="geometry" />
+          <mxGeometry height="30" width="180" x="485" y="728" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="稳态&amp;nbsp; `0=alpha grad ^2 t + (Phi)/(rho c)`" vertex="1">
-          <mxGeometry height="30" width="185" x="495" y="788" as="geometry" />
+          <mxGeometry height="30" width="185" x="495" y="776" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="稳态无内热源&amp;nbsp; `0=alpha grad ^2 t`" vertex="1">
-          <mxGeometry height="30" width="180" x="491" y="830" as="geometry" />
+          <mxGeometry height="30" width="180" x="491" y="818" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#b1ddf0;sketch=1;align=center;verticalAlign=middle;fontFamily=宋体;fontSize=15;strokeColor=#10739e;opacity=40;fontColor=default;" value="稳态导热" vertex="1">
-          <mxGeometry height="40" width="120" x="90" y="800" as="geometry" />
+          <mxGeometry height="40" width="120" x="90" y="788" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="单层平壁：`Phi=A lambda (t_(w1)-t_(w2))/(delta)`" vertex="1">
-          <mxGeometry height="30" width="220" x="50" y="860" as="geometry" />
+          <mxGeometry height="30" width="220" x="50" y="848" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="多层,同前面串联：`Phi=(t_(w1)-t_(w2))/(sum _(i=1)^n R_(lambda i))`" vertex="1">
-          <mxGeometry height="30" width="250" x="41" y="900" as="geometry" />
+          <mxGeometry height="30" width="250" x="41" y="888" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="单层圆筒壁单位长度的热流量：&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;`Phi_l=(Phi)/l=(t_(w1)-t_(w2))/((ln d_2 -ln d_1)/(2 pi lambda))`&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="240" x="46" y="970" as="geometry" />
+          <mxGeometry height="60" width="240" x="46" y="958" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="多层,同前面串联" vertex="1">
-          <mxGeometry height="30" width="120" x="97" y="1030" as="geometry" />
+          <mxGeometry height="30" width="120" x="97" y="1018" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="肋片：具有负内热源的一维稳态导热" vertex="1">
-          <mxGeometry height="30" width="260" x="36" y="1080" as="geometry" />
+          <mxGeometry height="30" width="260" x="36" y="1068" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="`(del ^2 t)/(del x^2)-(Phi)/(lambda)=0`" vertex="1">
-          <mxGeometry height="30" width="130" x="105" y="1120" as="geometry" />
+          <mxGeometry height="30" width="130" x="105" y="1108" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="`theta=theta_0 (ch[m(H-x)])/(ch(mh))`" vertex="1">
-          <mxGeometry height="30" width="170" x="81" y="1169" as="geometry" />
+          <mxGeometry height="30" width="170" x="81" y="1157" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="过余温度" vertex="1">
-          <mxGeometry height="30" width="70" x="35" y="1190" as="geometry" />
+          <mxGeometry height="30" width="70" x="35" y="1178" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="肋根处过余温度" vertex="1">
-          <mxGeometry height="30" width="110" x="120" y="1220" as="geometry" />
+          <mxGeometry height="30" width="110" x="120" y="1208" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-20" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="">
           <mxGeometry relative="1" width="100" as="geometry">
             <Array as="points" />
-            <mxPoint x="134.71" y="1196" as="sourcePoint" />
-            <mxPoint x="134.71" y="1226" as="targetPoint" />
+            <mxPoint x="134.71" y="1184" as="sourcePoint" />
+            <mxPoint x="134.71" y="1214" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="`eta_f=(实际散热)/(假设整个肋片具有肋基温度的理想散热)`" vertex="1">
-          <mxGeometry height="30" width="300" x="40" y="1260" as="geometry" />
+          <mxGeometry height="30" width="300" x="40" y="1248" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="`eta_f=(th(mH)/(mH)), mH uarr, eta_f darr, mH=sqrt((2h)/(lambda delta))H`" vertex="1">
-          <mxGeometry height="30" width="315" x="35" y="1310" as="geometry" />
+          <mxGeometry height="30" width="315" x="35" y="1298" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="肋片不出计算，出分析题，注意根据上面公式记忆" vertex="1">
-          <mxGeometry height="30" width="193" x="97" y="1360" as="geometry" />
+          <mxGeometry height="30" width="193" x="97" y="1348" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;arcSize=8;strokeWidth=2;strokeColor=#B5739DCC;sketch=1;fillWeight=4;hachureGap=8;hachureAngle=45;opacity=40;" value="" vertex="1">
-          <mxGeometry height="45" width="110" x="235" y="1301" as="geometry" />
+          <mxGeometry height="45" width="110" x="235" y="1289" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;arcSize=8;strokeWidth=2;strokeColor=#B5739DCC;sketch=1;fillWeight=4;hachureGap=8;hachureAngle=45;opacity=40;" value="" vertex="1">
-          <mxGeometry height="45" width="125" x="135" y="853.5" as="geometry" />
+          <mxGeometry height="45" width="125" x="135" y="841.5" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;arcSize=8;strokeWidth=2;strokeColor=#B5739DCC;sketch=1;fillWeight=4;hachureGap=8;hachureAngle=45;opacity=40;" value="" vertex="1">
-          <mxGeometry height="45" width="150" x="91" y="987.5" as="geometry" />
+          <mxGeometry height="45" width="150" x="91" y="975.5" as="geometry" />
         </mxCell>
         <mxCell id="TKhZfGLavfmzRlnttPlZ-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="傅立叶数：`Fo` &lt;b&gt;&lt;font style=&quot;color: rgb(181, 115, 157);&quot;&gt;从非稳态导热开始到`tau`的时间&lt;/font&gt;&lt;/b&gt;除以&lt;b&gt;&lt;font style=&quot;color: rgb(181, 115, 157);&quot;&gt;温度变化波及到`delta^2`面积用时&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="270" x="450" y="940" as="geometry" />
+          <mxGeometry height="30" width="270" x="450" y="928" as="geometry" />
         </mxCell>
         <mxCell id="Dj5NhXDChLnDZhVU9SHK-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="毕渥数：`Bi=(h delta)/(lambda)`,&lt;b&gt;&lt;font style=&quot;color: rgb(181, 115, 157);&quot;&gt;物体内部导热热阻与边界处对流换热热阻之比&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="250" x="456" y="1000" as="geometry" />
+          <mxGeometry height="30" width="250" x="456" y="988" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="对流换热" id="vneFUXDI_nFC89-YHphF">
-    <mxGraphModel dx="593" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1422" dy="1096" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="880" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -326,7 +326,123 @@
           <mxGeometry height="30" width="170" x="610" y="230" as="geometry" />
         </mxCell>
         <mxCell id="4izwqnls3bzY5p3tDmjG-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(181, 115, 157);&quot;&gt;彼此相似的物理现象，同名的相似特征数相等&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="160" x="527" y="310" as="geometry" />
+          <mxGeometry height="30" width="160" x="510" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="9V842GpIJ1FlXFaKkP3g-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="努塞尔数：`Nu=(hl)/(lambda)`" vertex="1">
+          <mxGeometry height="30" width="150" x="450" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="9V842GpIJ1FlXFaKkP3g-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="表征流体在壁面法线方向上的平均无量纲温度梯度，其大小反映对流换热的强弱" vertex="1">
+          <mxGeometry height="30" width="190" x="610" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="9V842GpIJ1FlXFaKkP3g-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(181, 115, 157);&quot;&gt;若想增加对流换热量，长度就不能太长&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="520" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="9V842GpIJ1FlXFaKkP3g-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="对湍流：&lt;div&gt;`Nu=0.023Re_f^(0.8)Pr_f^(0.4)`&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="230" x="470" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="9V842GpIJ1FlXFaKkP3g-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="格拉晓夫数：`Gr=(ga Delta t l^3)/(v^2)`" vertex="1">
+          <mxGeometry height="30" width="210" x="490" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="9V842GpIJ1FlXFaKkP3g-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="表征浮升力与粘性力的相对大小" vertex="1">
+          <mxGeometry height="30" width="220" x="490" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="9V842GpIJ1FlXFaKkP3g-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="区分层流湍流：&lt;div&gt;外掠平板：`Re&amp;nbsp; &amp;nbsp;5\times 10^5`&lt;/div&gt;&lt;div&gt;管内流动：`2300&amp;nbsp; 4000`&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="170" x="100" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="9V842GpIJ1FlXFaKkP3g-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="自然对流：&lt;div&gt;瑞利数 `10^9`&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="115" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="9V842GpIJ1FlXFaKkP3g-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="`h=(Nu*lambda)/l`" vertex="1">
+          <mxGeometry height="30" width="150" x="520" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="9V842GpIJ1FlXFaKkP3g-14" parent="1" style="shape=stencil(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);lineShape=1;strokeColor=default;rounded=0;align=center;verticalAlign=middle;fontFamily=宋体;fontSize=15;fontColor=default;fillColor=none;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="327.82764810541096" width="100.58276476534294" x="405.54816099662617" y="403.2224089668041" as="geometry" />
+        </mxCell>
+        <mxCell id="9V842GpIJ1FlXFaKkP3g-15" parent="1" style="shape=stencil(lVjZctswDPwav2LAG3xO0//ITJzG0zTOOO7194Xq0hEgadO82RKWFBbHgtylm9fHu5f9LvLr+XT8uv95uD8/7tKnXYyH58f96XDWX7t0u0s3D8fT/svp+P35/vL/5W6ynH59O/6YVvh1wQVmYp5gkX9fHkWK9e+DzxfA0+F5BuidajX2jbhD+9iNfdANGgAINQcQSgjQqCfrQaGSAaBSEwNImTLyoVDNBpAzFUSSvg4GUDIx8iFRtlGocey5DtDXzQJkPNkCJMtSeycOgaqNQ6vDq3UAk9gdhCnwNkA6NUurKG8gDiI+l3SJKgCgX2xZUqL/feQ6IJDYOGh2oVxqjWKxAKEMAFWdtqmhFYLSuxbKC0ADPpRGYgGzIl9H8FhwtgVK15yIbeS0RNA3JY2c+EBwAYBIYnnVUHewg7ahZEMt2phAumqfYwfIFEHktA0F64NoTYEuEBY+tE4ZpasvIM0uAXFLVGyytmtnW3eZwqKiM1g/jPK92peRvKv2TMlmRcvUQBotpKel0XM27P33RCrAX6bq+A9UQNIF3y0aQ3+j1xG1DyAhMgXLjzaDDjJOZSz69ZHW1sH2zB7x06hVzw9KaNVh8fxj++LsVebw+s5fLLPNy3LDwl+puvXrEJQN/n0+V9zlqFdvj9RGNXxRvwXUS6CcvL8d1lcp3h4JMvuOqPwz4F/tHZ8R5jNTdvYqt9Df6PzlwfAGn6l4+wTqN43hYV6P4HvKgp93dPWD9ioYntAAR66gFewyKA+Ot0QvOIp0gEEtri56dB8yuM5p8OOKzlQNBC21xVCXoUpOw4ebMxsUbh1vxE2BYXTidUDxQjmN24Clyl7p+1X71wHiS79fk3e91ekUuPAB9QqdvdmNjTx42xx9Ha0Fnigk+ZOg7okiret5vSxDodcBbcjprB6QIOsBwWWrEh3RDkLdsqTnrohGNO0QtkRLGqeYrVOR2yHjMVPjKtZpPZ0GEDjNHCfj2ngiaAI6erszyzTaYoATzhCoA1r1/OsCh4VT7d2xKwyat+zdkf8qjVsH+GjXZ9jo1b50Z48GqV79ZMowi9TeKY/WJrLXw41fHwnJdCUSvT3KOfGTJg/Cti51uDj7jPjs437lzV7Q9/RlPsC7Cq1KcfaoE3341us/APrj7ZLt4fD0dLmjm7/3l3L66HKhl27/AA==);lineShape=1;strokeColor=default;rounded=0;align=center;verticalAlign=middle;fontFamily=宋体;fontSize=15;fontColor=default;fillColor=none;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="60.910720553646726" width="48.90204207203018" x="482.7028260885952" y="694.6418888850717" as="geometry" />
+        </mxCell>
+        <mxCell id="9V842GpIJ1FlXFaKkP3g-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="由此计算热流量" vertex="1">
+          <mxGeometry height="30" width="120" x="540" y="790" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jHFAgpjtKyznyWlWhYQ5" name="辐射换热">
+    <mxGraphModel dx="1422" dy="1096" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="700" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ew9r-5GtpoEKt01gpO70-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="`alpha+rho+tau=1`" vertex="1">
+          <mxGeometry height="30" width="130" x="350" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ew9r-5GtpoEKt01gpO70-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="吸收比" vertex="1">
+          <mxGeometry height="30" width="60" x="320" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ew9r-5GtpoEKt01gpO70-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="反射比" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ew9r-5GtpoEKt01gpO70-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="透射比" vertex="1">
+          <mxGeometry height="30" width="60" x="413" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ew9r-5GtpoEKt01gpO70-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="固体和液体的透射比为0" vertex="1">
+          <mxGeometry height="30" width="190" x="305" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ew9r-5GtpoEKt01gpO70-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="镜反射与漫反射：取决于物体表面粗糙程度和投射辐射能的波长" vertex="1">
+          <mxGeometry height="30" width="250" x="43" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ew9r-5GtpoEKt01gpO70-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="`alpha=1`，黑体&lt;div&gt;`rho=1`，镜体（白体）&lt;/div&gt;&lt;div&gt;`tau=1`，绝对透明体&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="320" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ew9r-5GtpoEKt01gpO70-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="`E_b=sigma T^4`" vertex="1">
+          <mxGeometry height="30" width="110" x="90" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ew9r-5GtpoEKt01gpO70-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="`sigma=5,67 \times 10^(-8)`" vertex="1">
+          <mxGeometry height="30" width="130" x="80" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ew9r-5GtpoEKt01gpO70-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="`E_(b(lambda_1-lambda_2))=[F_(b(0-lambdaP2))-F_(b(0-lambda_1))]E_b`" vertex="1">
+          <mxGeometry height="30" width="240" x="46" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="ew9r-5GtpoEKt01gpO70-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="可以确定黑体在某一温度下发射的任意波段的波段辐射力" vertex="1">
+          <mxGeometry height="30" width="150" x="93" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ew9r-5GtpoEKt01gpO70-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="`E=pi L`" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ew9r-5GtpoEKt01gpO70-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="漫反射体的辐射力是辐射强度的`pi`倍" vertex="1">
+          <mxGeometry height="30" width="260" x="293" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ew9r-5GtpoEKt01gpO70-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="实际物体的辐射力和同温度下黑体的辐射力之比称为发射率（黑度）" vertex="1">
+          <mxGeometry height="30" width="230" x="550" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ew9r-5GtpoEKt01gpO70-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="`epsi=E/E_b`" vertex="1">
+          <mxGeometry height="30" width="60" x="620" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ew9r-5GtpoEKt01gpO70-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="基尔霍夫定律：吸收率等于发射率" vertex="1">
+          <mxGeometry height="30" width="260" x="520" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="ew9r-5GtpoEKt01gpO70-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#b1ddf0;sketch=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;strokeColor=#10739e;opacity=40;fontColor=default;" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;宋体&quot;&gt;角系数&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="355" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ew9r-5GtpoEKt01gpO70-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="从表面一直接投射到表面二上的辐射能所占的百分数称为一对二的角系数，用`X_(1,2)`表示" vertex="1">
+          <mxGeometry height="30" width="240" x="286" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="ew9r-5GtpoEKt01gpO70-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(181, 115, 157);&quot;&gt;性质&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="183" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="ew9r-5GtpoEKt01gpO70-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="相对性`A_1X_(1,2)=A_2X_(2,1)`&lt;div&gt;完整性`sum_(i=1)^(n)X_(i,j)=1`&lt;/div&gt;&lt;div&gt;可加性&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="170" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="ew9r-5GtpoEKt01gpO70-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="两个漫灰表面构成的封闭空腔的辐射换热" vertex="1">
+          <mxGeometry height="30" width="160" x="585" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="ew9r-5GtpoEKt01gpO70-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="两个表面辐射热阻`(1-epsi_1)/A_(1epsi_1)`和`(1-epsi_2)/A_(1epsi_2)`" vertex="1">
+          <mxGeometry height="30" width="280" x="490" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="ew9r-5GtpoEKt01gpO70-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="一个空间辐射热阻`1/(A_1X_(1,2))`串联" vertex="1">
+          <mxGeometry height="30" width="220" x="520" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="ew9r-5GtpoEKt01gpO70-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=15;fontColor=default;" value="`Phi_(1,2)=(E_(b_1)-E_(b_2))/((1-epsi_1)/A_(1epsi_1)+1/(A_1X_(1,2))+(1-epsi_2)/A_(1epsi_2))`" vertex="1">
+          <mxGeometry height="30" width="310" x="473" y="600" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
