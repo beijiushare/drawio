@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>drawio列表</title>
     <style>
@@ -10,14 +11,14 @@
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: HanaMinA, sans-serif;
             font-weight: normal;
             padding: 20px;
             background-color: #f5f5f5;
         }
-        
+
         .container {
             max-width: 800px;
             margin: 0 auto;
@@ -26,24 +27,24 @@
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
-        
+
         h1 {
             text-align: center;
             margin-bottom: 20px;
             color: #000000;
         }
-        
+
         .category-list {
             list-style-type: none;
         }
-        
+
         .category-item {
             border-radius: 9.2px;
             margin-bottom: 20px;
             border: 1px solid #8c7676;
             padding-bottom: 15px;
         }
-        
+
         .category-name {
             background-color: #6d7b89;
             color: white;
@@ -52,7 +53,7 @@
             font-weight: bold;
             margin-bottom: 10px;
         }
-        
+
         .address-list {
             list-style-type: none;
             margin-top: 10px;
@@ -61,7 +62,7 @@
             flex-wrap: wrap;
             gap: 10px;
         }
-        
+
         .address-item {
             padding: 6px 10px;
             background-color: #f8f9fa;
@@ -69,24 +70,61 @@
             display: inline-block;
             white-space: nowrap;
         }
-        
+
         .address-item a {
             text-decoration: none;
             color: #333;
             display: block;
         }
-        
+
         .address-item a:hover {
             text-decoration: underline;
         }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 0px;
+            }
+
+            .container {
+                margin-top: 20px;
+                padding: 10px;
+                background-color: #00000000;
+                box-shadow: 0 0px 0px;
+            }
+
+            h1 {
+                font-size: 23px;
+            }
+
+            .category-item {
+                margin-bottom: 25px;
+                padding-bottom: 5px;
+            }
+
+            .category-name {
+                font-size: 20px;
+                padding: 8px 12px;
+            }
+
+            .address-list {
+                margin: 5px;
+            }
+
+            .address-item a {
+                font-size: 18px;
+            }
+        }
     </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
     <div class="container">
         <h1>drawio列表</h1>
         <ul class="category-list" id="categoryList"></ul>
     </div>
-    
+
     <script>
         const categoryData = [
             {
@@ -102,54 +140,117 @@
                     "关于"
                 ]
             }
+            // 列表项多了记得添加分页设置
         ];
-        
+
         function renderCategoryList() {
             const categoryList = document.getElementById('categoryList');
-            
+
             categoryList.innerHTML = '';
-            
+
             // 遍历数据，生成列表
             categoryData.forEach((category, index) => {
                 // 创建列表项
                 const categoryItem = document.createElement('li');
                 categoryItem.className = 'category-item';
-                
+
                 // 创建分类
                 const categoryName = document.createElement('div');
                 categoryName.className = 'category-name';
                 categoryName.textContent = category.name;
-                
+
                 // 创建地址列表
                 const addressList = document.createElement('ul');
                 addressList.className = 'address-list';
-                
+
                 // 生成地址列表项
                 category.addresses.forEach(file_name => {
                     const addressItem = document.createElement('li');
                     addressItem.className = 'address-item';
-                    
+
                     const address = `draw_book/${category.name}/${file_name}.drawio.html`;
 
                     // 创建可点击的链接
                     const link = document.createElement('a');
                     link.href = address;
                     link.textContent = file_name;
-                    link.target = '_blank'; 
-                    
+                    link.target = '_blank';
+
                     addressItem.appendChild(link);
                     addressList.appendChild(addressItem);
                 });
-                
+
                 // 组装列表项
                 categoryItem.appendChild(categoryName);
                 categoryItem.appendChild(addressList);
                 categoryList.appendChild(categoryItem);
             });
         }
-        
+
         // 渲染列表
         document.addEventListener('DOMContentLoaded', renderCategoryList);
+
+        // 重写alert样式
+        window.alert = function (msg, callback) {
+            var div = document.createElement("div");
+            div.innerHTML = "<style type=\"text/css\">"
+                + ".nbaMask { position: fixed; z-index: 1000; top: 0; right: 0; left: 0; bottom: 0; background: rgba(0, 0, 0, 0.5); }                                                                                                                                                                       "
+                + ".nbaMaskTransparent { position: fixed; z-index: 1000; top: 0; right: 0; left: 0; bottom: 0; }                                                                                                                                                                                            "
+                + ".nbaDialog { position: fixed; z-index: 5000; width: 80%; max-width: 300px; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); background-color: #fff; text-align: center; border-radius: 8px; overflow: hidden; opacity: 1; color: white; }"
+                + ".nbaDialog .nbaDialogHd { padding: .2rem .27rem .08rem .27rem; }                                                                                                                                                                                                                         "
+                + ".nbaDialog .nbaDialogHd .nbaDialogTitle { font-size: 17px; font-weight: 400; }                                                                                                                                                                                                           "
+                + ".nbaDialog .nbaDialogBd { padding: 1.5rem; font-size: 15px; line-height: 1.3; word-wrap: break-word; word-break: break-all; color: #000000; }                                                                                                                                          "
+                + ".nbaDialog .nbaDialogFt { position: relative; line-height: 48px; font-size: 17px; display: -webkit-box; display: -webkit-flex; display: flex; }                                                                                                                                          "
+                + ".nbaDialog .nbaDialogFt:after { content: \" \"; position: absolute; left: 0; top: 0; right: 0; height: 1px; border-top: 1px solid #e6e6e6; color: #e6e6e6; -webkit-transform-origin: 0 0; transform-origin: 0 0; -webkit-transform: scaleY(0.5); transform: scaleY(0.5); }               "
+                + ".nbaDialog .nbaDialogBtn { display: block; -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; color: #09BB07; text-decoration: none; -webkit-tap-highlight-color: transparent; position: relative; margin-bottom: 0; }                                                                       "
+                + ".nbaDialog .nbaDialogBtn:after { content: \" \"; position: absolute; left: 0; top: 0; width: 1px; bottom: 0; border-left: 1px solid #e6e6e6; color: #e6e6e6; -webkit-transform-origin: 0 0; transform-origin: 0 0; -webkit-transform: scaleX(0.5); transform: scaleX(0.5); }             "
+                + ".nbaDialog a { text-decoration: none; -webkit-tap-highlight-color: transparent; }"
+                + "</style>"
+                + "<div id=\"dialogs2\" style=\"display: none\">"
+                + "<div class=\"nbaMask\"></div>"
+                + "<div class=\"nbaDialog\">"
+                + "    <div class=\"nbaDialogHd\">"
+                + "        <strong class=\"nbaDialogTitle\"></strong>"
+                + "    </div>"
+                + "    <div class=\"nbaDialogBd\" id=\"dialog_msg2\">弹窗内容，告知当前状态、信息和解决方法，描述文字尽量控制在三行内</div>"
+                + "    <div class=\"nbaDialogHd\">"
+                + "        <strong class=\"nbaDialogTitle\"></strong>"
+                + "    </div>"
+                + "    <div class=\"nbaDialogFt\">"
+                + "        <a href=\"javascript:;\" class=\"nbaDialogBtn nbaDialogBtnPrimary\" id=\"dialog_ok2\">继续查看</a>"
+                + "    </div></div></div>";
+            document.body.appendChild(div);
+
+            var dialogs2 = document.getElementById("dialogs2");
+            dialogs2.style.display = 'block';
+
+            var dialog_msg2 = document.getElementById("dialog_msg2");
+            dialog_msg2.innerHTML = msg;
+
+            // var dialog_cancel = document.getElementById("dialog_cancel");
+            // dialog_cancel.onclick = function() {
+            // dialogs2.style.display = 'none';
+            // };
+            var dialog_ok2 = document.getElementById("dialog_ok2");
+            dialog_ok2.onclick = function () {
+                dialogs2.style.display = 'none';
+                callback();
+            };
+        };
+
+        // 小屏幕提示
+        document.addEventListener('DOMContentLoaded', function () {
+            function isMobileDevice() {
+                return window.innerWidth < 768;
+            }
+
+            if (isMobileDevice()) {
+                setTimeout(function () {
+                    alert('使用小屏幕浏览可能会影响阅读体验，建议使用电脑或其他宽屏设备。');
+                }, 1000);
+            }
+        });
     </script>
 </body>
+
 </html>
